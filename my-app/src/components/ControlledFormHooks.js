@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
 
 
-// Compare code to the ControlledForm.js file. Notice how useState Hook to refreactor the code!
+// Compare code to the ControlledForm.js file. Notice how useState Hook to
+ refreactor the code!
 
 // defind a state value e.g values form ControlledForm.js
 // using the setter mehtod with the useState hook
