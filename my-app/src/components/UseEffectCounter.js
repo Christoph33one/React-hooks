@@ -23,8 +23,15 @@ function UseEffectCounter() {
     useEffect(()=>{
         console.log('Creating timer');
         const interval = setInterval(() => {
+            console.log('interval exected')
             setTime(time => time + 1)
         }, 1000);
+        // creating a cleanup function, stop the timer effect running in the console 
+        // when it is not displayed. Look at UserEffectCounterContainer file!
+        return () => {
+            console.log('cleaning up')
+            clearInterval(interval);
+        }
     }, []);
     return (
     <div>
