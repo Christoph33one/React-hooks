@@ -3,6 +3,7 @@ import './App.css';
 // import HooksCounter from './components/HooksCounter';
 // import ClassCounter from './components/ClassCounter';
 import ControlledFormHooks from './components/ControlledFormHooks';
+import UseStateWithArrays from './components/UseStateWithArrays';
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <div className="App">
       {/* <HooksCounter /> */}
       {/* <ClassCounter /> */}
-      <ControlledFormHooks />
+      {/* <ControlledFormHooks /> */}
+      <UseStateWithArrays />
     </div>
   );
 }
